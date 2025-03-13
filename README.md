@@ -10,7 +10,7 @@
 ```bash
 apt-get update && apt-get upgrade
 apt-get install git python
-git clone https://github.com/Gameye98/vbug
+git clone https://github.com/OFFICIALBUNNY404/PUNNSU.git
 cd punnsu
 python punnsu.py
 ```
