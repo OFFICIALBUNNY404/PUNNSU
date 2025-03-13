@@ -20,9 +20,11 @@ python vbug.py
 • OS (Android, Linux)
 
 ## Find our team | BlackHole Security
-[Telegram Group](https://t.me/BHSec)  
-[GitHub](https://github.com/BlackHoleSecurity)
-
+[WhatsApp Group](https://chat.whatsapp.com/Eey19yVQU5KEBqQ5XipARv)  
+[GitHub]([https://github.com/BlackHoleSecurity](https://github.com/OFFICIALBUNNY404))
+[Tiktok]([tiktok.com/@mr.bunny_official404])
+[YouTube]([https://www.youtube.com/@Bunnynotsurend])
+[Telegram]([https://t.me/OFFICIALMRBUNNY])
 ## Other project for vbug
 1. vbug (CLI) for Windows | Written in PHP | Still working on.
 2. vbug (GUI) for Windows | Written in Python | Not even want to started. LOL.
