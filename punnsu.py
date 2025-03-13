@@ -165,7 +165,7 @@ def main():
         print(f'{C}║{R} [0] Exit                                    {C}║{N}')
         print(f'{C}╚════════════════════════════════════════════════╝{N}')
         try:
-            choice = int(input(f'{C}BUNNYSAD {Y}> Enter your choice:{N} '))
+            choice = int(input(f'{C}PUNNSU {Y}> Enter your choice:{N} '))
             if choice == 1:
                 show_virus_list("Android", virus_data["anvima"])
                 handle_virus_choice("Android", virus_data["anvima"])
