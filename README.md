@@ -3,9 +3,9 @@
 **(EN)** This tool works to create viruses instantly. That way Punnsu maker users can use it easily and quickly. Inside the software has provided 3 features that we can choose, **Anvima (Virus For Android), Winvima (Virus for Window) & MACvima (Virus for MACOSX)**
 
 ## Tampilan
-![Tampilan Tools]([https://files.catbox.moe/3stxec.jpg])
-https://files.catbox.moe/thwekc.jpg
-https://files.catbox.moe/4ydfsv.jpg
+![Example Image](https://files.catbox.moe/3stxec.jpg)
+![Example Image](https://files.catbox.moe/thwekc.jpg)
+![Example Image](https://files.catbox.moe/4ydfsv.jpg)
 ## Installation
 ```bash
 apt-get update && apt-get upgrade
