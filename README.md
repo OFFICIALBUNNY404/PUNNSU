@@ -11,20 +11,21 @@
 apt-get update && apt-get upgrade
 apt-get install git python
 git clone https://github.com/Gameye98/vbug
-cd vbug
-python vbug.py
+cd punnsu
+python punnsu.py
 ```
 
 ## Requirements
-• Python 2.7.x  
+• Python 3.11.8 
 • OS (Android, Linux)
 
-## Find our team | BlackHole Security
+## Semarang404| Bunny Security
 [WhatsApp Group](https://chat.whatsapp.com/Eey19yVQU5KEBqQ5XipARv)  
+
 [GitHub](https://github.com/OFFICIALBUNNY404)
+
 [Tiktok](https://tiktok.com/@mr.bunny_official404)
+
 [YouTube](https://www.youtube.com/@Bunnynotsurend)
+
 [Telegram](https://t.me/OFFICIALMRBUNNY)
-## Other project for vbug
-1. vbug (CLI) for Windows | Written in PHP | Still working on.
-2. vbug (GUI) for Windows | Written in Python | Not even want to started. LOL.
